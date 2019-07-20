@@ -18,15 +18,10 @@ const BlogPost = ({data: {post}}) => (
 export const query = graphql`
   query ($id: String!) {
     post: postsJson(id: {eq: $id}) {
-      title
-      slug
-      content
-      publishDate(formatString: "MMMM DD, YYYY")
-      tags
+      ...postFields
+
       author {
-        slug
-        name
-        biography
+        ...authorFields
       }
     }
   }
