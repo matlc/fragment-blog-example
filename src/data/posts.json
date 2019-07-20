@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "title": "How I Became the CEO of a Unicorn",
+    "publishDate": "2019-04-01",
+    "content": "Actually, I'm not really sure either. It just voted for me.",
+    "author": [
+      "10"
+    ],
+    "tags": [
+      "Business",
+      "Mythical Creatures"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Should you learn GraphQL? The answer may surprise you.",
+    "publishDate": "2019-05-01",
+    "content": "It doesn't surprise you; you should learn it.",
+    "author": [
+      "11"
+    ],
+    "tags": [
+      "GraphQL",
+      "Needless Questions"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "2 Easy Steps to Living Forever",
+    "publishDate": "2019-06-01",
+    "content": "1) Be Alive. 2) Don't Die.",
+    "author": [
+      "12"
+    ],
+    "tags": [
+      "Eternal Life",
+      "2 Step Program"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "How to Use GraphQL Fragments in Gatsby",
+    "publishDate": "2019-08-07",
+    "content": "I implemented fragments in Gatsby because I hate typing things multiple times. Sure, there's copy and paste, but that is just making the best of bad situation.",
+    "author": [
+      "11"
+    ],
+    "tags": [
+      "GraphQL",
+      "Fragments"
+    ]
+  }
+]
