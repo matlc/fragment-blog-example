@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 const BlogPost = ({data: {post}}) => (
   <Layout>
     <h1>{post.title}</h1>
-    <h4>By {post.author.map(author => <Link to={`/author/${author.slug}`}>{author.name}</Link>)}</h4>
+    <h4>By <Link to={`/author/${post.author.slug}`}>{post.author.name}</Link></h4>
     <p>{post.publishDate}</p>
     <hr />
     <p>{post.content}</p>
